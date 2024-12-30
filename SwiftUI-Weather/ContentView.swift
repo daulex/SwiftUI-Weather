@@ -17,6 +17,8 @@ struct ContentView: View {
                 MainWeatherStatusView(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill",
                                       temperature: 24)
                 
+                
+                
                 HStack(spacing: 20){
                     WeatherDayView(dayOfWeek: "TUE",
                                    imageName: "cloud.sun.fill",
